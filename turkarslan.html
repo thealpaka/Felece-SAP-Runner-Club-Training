@@ -1,0 +1,217 @@
+<!doctype HTML>
+<HTML lang = "en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> Welcome to Ennialis </title>
+
+        <style>
+
+            body{
+                background-image: url('https://i.redd.it/0rhkb41uyar51.png');
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+            }
+
+            .navigationbar a{
+                color: #f2f2f2;
+                text-alignment:center;
+                font-size: 100%;
+                text-decoration:none;
+                margin:40px;
+            }
+
+            .navigationbar a:hover{
+                color:#de8e16
+            }
+
+            .navigationbar{
+                alignment:center;
+                display: block;
+                background-color:#050a66;
+                text-align: center;
+                padding: 14px 30px;
+                font-size: 17px;
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                margin: 20px;
+                border-radius: 50%;
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+            
+            .fa-reddit {
+                background: #ff5700;
+                color: white;
+            }
+
+            .fa-instagram {
+                background: #125688;
+                color: white;
+            }
+
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                border: 10px solid #ddd;
+                border-radius: 40px;
+                padding: 10px;
+            }
+
+            div p{
+                color:#f2f3fa;
+                text-align:center;
+                font-size:25px;
+            }
+
+            .accordion {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                text-align: center;
+                border: none;
+                outline: none;
+                transition: 0.4s;
+                border-radius: 15px;
+            }
+
+            .active, .accordion:hover {
+                background-color: #ccc;
+            }
+
+            .panel {
+                padding: 0 18px;
+                background-color:#050a66;
+                display: none;
+                overflow: hidden;
+                border-radius: 10px;
+            }
+            
+            .contact {
+                background-color: #050a66;
+                color: #f2f3fa;
+                border-radius: 14px;
+            }
+
+            .contactform{
+                text-align: center;
+                line-height: 2em; 
+            }
+
+
+        </style>
+</head>
+
+    <body>
+
+        <div class="navigationbar">
+            <h3 style="color:#f2f3fa"> Ramazan Can Türkarslan </h3>
+            <a href="drill.html" > Homepage </a>
+            <a href="drill.html"> About Me </a>
+            <a href="drill.html"> Projects </a>
+            <a href="drill.html"> Contact Me </a>
+            <a href="https://www.linkedin.com/in/ramazan-can-turkarslan/" class="fa fa-linkedin"></a>
+            <a href="https://www.reddit.com/user/ennialis" class="fa fa-reddit"></a>
+            <a href="https://www.facebook.com/can.turkarslan.923/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/canturkarslan/" class="fa fa-instagram"></a>
+            
+        </div><br><br><br>
+
+        <img src="norsk.jpg" alt="Erasmus in Poland" width="400px" height="512px">
+        <p style="font-size:22px; text-align:center; margin:20px;"><span style="background-color:#de8e16; color:#ffffff"><b>
+         Computer Science Student at Eskişehir Technical University</b></span></p> 
+
+        <div style="margin: 40px; background-color:#050a66;"><p><i>Hi! I'm Can and I am a computer engineering student at Eskişehir 
+            Technical University. Currently, I am participating in a program held by Felece with my fellow student friends!</i></p>
+        </div>
+
+            <hr width:10px;><br><br><br><br>
+
+            <button class="accordion">Felece</button>
+            <div class="panel">
+                <p style="color:#f2f3fa;">Welcome to Felece SAP Runner Club Training!</p>
+                </div>
+
+                <button class="accordion">What Do We Do?</button>
+                <div class="panel">
+                <p style="color:#f2f3fa;">The key to success is combining a professional management perspective with proven experience and 
+                expertise within a powerful structure. We believe this sustainable and systematic structure built in Felece creates synergy, which 
+                will continue to exist in a holistic manner. Based upon the collaboration of various lines of expertise, Felece is there for you at 
+                every step of digital transformation!</p>
+                </div>
+
+                <button class="accordion">Our Mission</button>
+                <div class="panel">
+                <p style="color:#f2f3fa;">As Felece; We produce innovative solutions for our customers' needs with our professional management 
+                approach, proven experience and expertise combined in a strong structure. We offer the products that we produce with our experienced 
+                project and consultancy teams that bring our expertise in different fields and our traceable and manageable service models to Turkey 
+                and the World.</p>
+            </div>
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+            }
+        </script>
+<br><br><br><br>
+        <hr width:10px;>
+
+        <div class="videos"><h1 style="text-align:center; font-size:35px; color:#f2f3fa; "><b> Psst! Hey kid. Wanna watch some quality content videos? </b></h1>
+        <p><b><font size="6"> Sam O'Nella Academy - Diogenes </font></b><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-A3IlRATIsI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+            <b><font size="6"> Sam O'Nella Academy - The Great Emu War </font></b><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QOPZQHTNUs0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+            <b><font size="6"> Sam O'Nella Academy - Thorium </font></b><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jjM9E6d42-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+		</p></div><br><br><hr>
+
+        <div class="contact"><h1 style="text-align:center;"><b>Contact Me</b></h1>
+            <form class="contactform">
+                <label for="name"  style="font-size: 20px;">Name and Surname </label><br>
+                <input type="text" id="name"   size="50" placeholder="What do people refer/call you?" style="font-size: 16px; border-radius:5px;"><br>
+                <label for="mail" style="font-size: 20px;">E-mail Address</label><br>
+                <input type="text" id="mail" size="50" placeholder="The address you use with @ on internet :)" style="font-size: 16px; border-radius:5px;"><br>
+                <label for="message"  style="font-size: 20px;">Message</label><br>
+                <input type="text" id="message" size="50" placeholder="'Sup homie" style="font-size: 16px; line-height: 5em; border-radius:7px;"><br>
+                <input type="submit" value="Submit" style="font-size: 16px; border-radius:3px;">
+            </form>
+        </div>
+    </body>
+</html>
